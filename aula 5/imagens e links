@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> LINKSSSS E IMAGENSSS </title>
+	</head>
+	<body>
+		<h1> links e imagens </h1>
+		<figure>
+			<img src="zap/haHa.jpg"
+				heigth="100"
+				width="100"
+				alt="txtptexto"
+				title="TITULO">
+			<figurecaption> Figura 1. Estrada </figurecaption>
+			</figure>
+	</body>
+</html>
