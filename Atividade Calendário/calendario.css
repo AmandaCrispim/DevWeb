@@ -22,31 +22,13 @@ td {
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-top: 15px;
 }
 
 caption {
     border: 1px solid black;
+    background-color: rgb(76, 145, 88);
 }
-
-/* .feriados1 {
-    display: flex;
-    width: 253.75px;
-    height: 195px;
-    justify-content: center;
-    gap: 50px;
-}
-
-.table1 {
-    border: 1px solid black;
-}
-
-.table3 {
-    border: 1px solid black;
-}
-
-.table2 {
-    border: 1px solid black;
-} */
 
 .box1 {
     border: 1px solid black;
@@ -54,7 +36,7 @@ caption {
     height: 195px;
     display: flex;
     justify-content: center;
-    gap: 50px
+    gap: 50px;
 
 }
 
@@ -64,7 +46,7 @@ caption {
     height: 195px;
     display: flex;
     justify-content: center;
-    gap: 50px
+    gap: 50px;
 
 }
 
@@ -75,11 +57,11 @@ caption {
         height: 195px;
         display: flex;
         justify-content: center;
-        gap: 50px
+        gap: 50px;
     
     }
 
-.caixas {
+.caixa1 {
     display: flex;
     justify-content: center;
     gap: 50px;
