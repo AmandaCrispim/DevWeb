@@ -1,15 +1,25 @@
 body {
     margin: 50px;
+    background-image: url(background-univille.PNG); 
 }
 
-
+img {
+    display: flex;
+    justify-content: center;
+}
 table {
     border-collapse: collapse;
+    background-color: white;
 }
 
 tr {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+tr  :hover {
+    background-color: #36573b;
+    color: white;
 }
 
 td {
@@ -36,7 +46,12 @@ caption {
     display: flex;
     justify-content: center;
     gap: 50px;
-
+    overflow-y: scroll;
+    overflow: hidden;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
 }
 
 .box2 {
@@ -45,7 +60,12 @@ caption {
     display: flex;
     justify-content: center;
     gap: 50px;
-
+    overflow-y: scroll;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    
 }
 
 .box3 {
@@ -54,7 +74,11 @@ caption {
         display: flex;
         justify-content: center;
         gap: 50px;
-    
+        overflow-y: scroll;
+        background-color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #000;
     }
 
 .caixa1 {
@@ -64,7 +88,7 @@ caption {
     padding-top: 0px;
 }
 
-.day-mark {
+.day-off {
     background-color: rgb(45, 131, 45);
 }
 
@@ -77,11 +101,23 @@ caption {
     font-weight: 600;
 }
 
-.space {
-    width: 1820;
-    height: 100px;
-}
-
 .class-start {
    background-color: yellow;
+}
+
+.none {
+    background-color: rgb(214, 214, 214);
+    opacity: 0.6;
+}
+
+.box1::-webkit-scrollbar {
+    display: none;
+}
+
+.box2::-webkit-scrollbar {
+    display: none;
+}
+
+.box3::-webkit-scrollbar {
+    display: none;
 }
